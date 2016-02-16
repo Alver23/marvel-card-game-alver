@@ -1,0 +1,24 @@
+#instalar stylus
+
+#Windows
+npm install stylus -g -> globalmente
+
+#mac/linux
+
+sudo npm install stylus -g
+
+#compilar archivos con stylus
+#primero ve a la carpeta del archivo usando cd
+
+#ejecutas
+stylus nombre-del-archivo.styl
+
+#escuchar cambios
+stylus nombre-del-archivo.styl -w
+
+#comprimir archivos
+stylus nombre-del-archivo.styl -c
+
+#instalar Jade
+
+sudo npm install -g jade
